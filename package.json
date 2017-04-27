@@ -1,0 +1,27 @@
+{
+  "name": "rest-graphql-mongo-api-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets latest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-graphql": "^0.6.4",
+    "express-winston": "^2.3.0",
+    "graphql": "^0.9.3",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.6",
+    "node-fetch": "^1.6.3",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "nodemon": "^1.11.0"
+  }
+}
